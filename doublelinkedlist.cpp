@@ -46,7 +46,9 @@ class doublelinkedlist
             // step 4: newnode.next = START
             newnode-> next = START;
 
-            
+            // step 5 : start.prev = newnode (if start exist)
+            if (START != NULL)
+            START-> prev = NULL;
         }
 
     }
