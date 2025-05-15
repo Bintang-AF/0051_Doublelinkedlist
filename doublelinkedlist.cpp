@@ -51,7 +51,12 @@ class doublelinkedlist
             START-> prev = NULL;
 
             newnode -> prev = NULL;
+
+            START = newnode ;
+            return;
         }
+
+        
 
     }
 
